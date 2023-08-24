@@ -1,15 +1,15 @@
-# \<name_here\> Terraform module
+# Terraform Cloud/Enterprise Project module
 
-\<description_here\>
+## Features
+1. Create a Terraform Cloud/Enterprise project.
 
 ## Usage
 
 ```hcl
-<code_here>
-```
+module "tfe_project" {
+  source = "github.com/PCDEV-Cloud/terraform-tfe-tfe_project"
 
-## Examples
-
-```hcl
-<code_here>
+  organization = "my-organization"
+  name         = "example-project"
+}
 ```
