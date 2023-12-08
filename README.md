@@ -2,6 +2,8 @@
 
 ## Features
 1. Create a Terraform Cloud/Enterprise project.
+2. Create variable sets applied to the project along with variables.
+3. Apply additional variable sets to the project.
 
 ## Usage
 
@@ -13,3 +15,7 @@ module "tfe_project" {
   name         = "example-project"
 }
 ```
+
+## Examples
+
+- [complete](https://github.com/PCDEV-Cloud/terraform-tfe-tfe_project/tree/main/examples/complete) - Creates a project with variable sets
