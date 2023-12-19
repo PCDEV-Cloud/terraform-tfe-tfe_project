@@ -12,7 +12,7 @@ module "tfe_project" {
   source = "../../"
 
   organization = "<TFE-ORGANIZATION-HERE>"
-  name         = "Example Project"
+  name         = "Example-Project"
 
   variable_sets = [
     {
